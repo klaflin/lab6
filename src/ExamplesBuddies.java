@@ -49,7 +49,8 @@ public class ExamplesBuddies {
     //Len's buddies are Jan and Kim
     this.len.addBuddy(this.jan);
     this.len.addBuddy(this.kim);
-
+    
+    mt = new MTLoBuddy();
     annBuddies = new ConsLoBuddy(this.cole, new ConsLoBuddy(this.bob, this.mt));
     kimCycle = new ConsLoBuddy(this.jan, new ConsLoBuddy(this.kim, new ConsLoBuddy(this.len, this.mt)));
   }
